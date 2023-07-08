@@ -6,7 +6,7 @@ export const AppRoutes = () => {
   return(
     <Routes>
       <Route index path="/home" element={<Home />}/>
-      <Route index path="*" element={<Navigate to="/" />}/>
+      <Route index path="*" element={<Navigate to="/home" />}/>
     </Routes>
   );
 }
